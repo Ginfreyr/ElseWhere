@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   ElseWhere | Discover Somewhere Else
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+ <body>
+  <header class="header">
+   <a class="brand" href="#home">
+    <img alt="ElseWhere Logo" src="/code/image3/logo.png"/>
+    <span>
+     ElseWhere
+    </span>
+   </a>
+   <nav>
+    <a href="#home">
+     Home
+    </a>
+    <div class="dropdown">
+     <a href="#local">
+      Destinations ▾
+     </a>
+     <div class="dropdown-content">
+      <a href="#local">
+       Local
+      </a>
+      <a href="#international">
+       International
+      </a>
+     </div>
+    </div>
+    <a href="#travel-guide">
+     Travel Guide
+    </a>
+    <a href="#gallery">
+     Gallery
+    </a>
+    <a href="#about">
+     About Us
+    </a>
+    <a class="search" href="#">
+     ⌕
+    </a>
+   </nav>
+  </header>
+  <!-- NAVIGATION -->
+  <!-- HOME HERO -->
+  <main class="home" id="home">
+   <section class="home-hero">
+    <div class="home-overlay">
+     <div class="home-text">
+      <p class="small-title">
+       DISCOVER
+      </p>
+      <h1>
+       Somewhere Else
+      </h1>
+      <p class="home-description">
+       Explore beautiful destinations, discover new experiences, and find
+              places worth discovering.
+      </p>
+      <div class="home-buttons">
+       <a class="explore-btn" href="#local">
+        EXPLORE LOCAL
+       </a>
+       <a class="explore-btn" href="#international">
+        EXPLORE INTERNATIONAL
+       </a>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <section class="destination-hero local-hero" id="local">
+   <div class="destination-overlay">
+    <h1>
+     Local Destinations
+    </h1>
+    <p>
+     Discover the beauty of the Philippines, from its pristine beaches to
+          majestic mountains.
+    </p>
+   </div>
+  </section>
+  <main class="destination-content" id="local-content">
+   <!-- DESTINATION CARDS -->
+   <div class="destination-grid">
+    <!-- MOUNT PULAG -->
+<a href="/code/codes/pulag.html" class="destination-card">
+
+    <div class="card-image">
+        <img src="/code/image3/pulag.jpg" alt="Mount Pulag">
+        <span class="card-arrow">↗</span>
+    </div>
+    <div class="card-content">
+        <h3>Mount Pulag</h3>
+        <p class="location">Benguet, Philippines</p>
+        <p>Mountains • Nature</p>
+    </div>
+</a>
+<!-- BATANES -->
+<a href="/code/codes/batanes.html" class="destination-card">
+
+    <div class="card-image">
+        <img src="/code/image3/batanes.jpg" alt="Batanes">
+        <span class="card-arrow">↗</span>
+    </div>
+    <div class="card-content">
+        <h3>Batanes</h3>
+        <p class="location">Philippines</p>
+        <p>Nature • Culture</p>
+    </div>
+</a>
+<!-- ISLA GIGANTES -->
+<a href="/code/codes/gigantes.html" class="destination-card">
+
+    <div class="card-image">
+        <img src="/code/image3/gigantes.jpg" alt="Isla Gigantes">
+        <span class="card-arrow">↗</span>
+    </div>
+    <div class="card-content">
+        <h3>Isla Gigantes</h3>
+        <p class="location">Carles, Iloilo</p>
+        <p>Beaches • Nature</p>
+    </div>
+</a>
+   </div>
+  </main>
+  <section class="destination-hero international-hero" id="international">
+   <div class="destination-overlay">
+    <h1>
+     International Destinations
+    </h1>
+    <p>
+     Explore diverse cultures, stunning landscapes, and exciting adventures
+          around the world.
+    </p>
+   </div>
+  </section>
+  <main class="destination-content" id="international-content">
+   <!-- DESTINATION CARDS -->
+<div class="destination-grid">
+    <!-- CHEFCHAOUEN -->
+    <a href="/code/codes/chefchaouen.html" class="destination-card">
+
+        <div class="card-image">
+            <img src="/code/image3/chefchaouen.jpg" alt="Chefchaouen Morocco">
+            <span class="card-arrow">↗</span>
+        </div>
+
+        <div class="card-content">
+            <h3>Chefchaouen</h3>
+            <p class="location">Morocco</p>
+            <p>Culture • City</p>
+        </div>
+    </a>
+    <!-- VATICAN CITY -->
+    <a href="/code/codes/vatican.html" class="destination-card">
+
+        <div class="card-image">
+            <img src="/code/image3/vatican.jpg" alt="Vatican City">
+            <span class="card-arrow">↗</span>
+        </div>
+
+        <div class="card-content">
+            <h3>Vatican City</h3>
+            <p class="location">Rome, Italy</p>
+            <p>Culture • History</p>
+        </div>
+    </a>
+    <!-- TROMSØ -->
+    <a href="/code/codes/tromso.html" class="destination-card">
+
+        <div class="card-image">
+            <img src="/code/image3/tromso.jpg" alt="Tromsø Norway">
+            <span class="card-arrow">↗</span>
+        </div>
+
+        <div class="card-content">
+            <h3>Tromsø</h3>
+            <p class="location">Norway</p>
+            <p>Nature • Mountains</p>
+        </div>
+    </a>
+</div>
+   </div>
+  </main>
+  <section class="gallery-hero" id="gallery">
+   <div class="gallery-overlay">
+    <h1>
+     Gallery
+    </h1>
+    <p>
+     A glimpse of the places, people, and moments
+     <br/>
+     that make every journey special.
+    </p>
+   </div>
+  </section>
+  <section class="gallery-section" id="gallery-content">
+   <div class="location-filters">
+    <button class="filter-btn active" onclick="filterGallery('all')">
+        All
+    </button>
+    <button class="filter-btn" onclick="filterGallery('chefchaouen')">
+        Chefchaouen
+    </button>
+    <button class="filter-btn" onclick="filterGallery('vatican')">
+        Vatican City
+    </button>
+    <button class="filter-btn" onclick="filterGallery('tromso')">
+        Tromsø
+    </button>
+    <button class="filter-btn" onclick="filterGallery('pulag')">
+        Mount Pulag
+    </button>
+    <button class="filter-btn" onclick="filterGallery('batanes')">
+        Batanes
+    </button>
+    <button class="filter-btn" onclick="filterGallery('gigantes')">
+        Isla Gigantes
+    </button>
+</div>
+   <!-- GALLERY GRID -->
+<div class="gallery-grid">
+
+    <!-- CHEFCHAOUEN -->
+   <div class="gallery-item chefchaouen">
+        <img src="/code/gallery/chefchaouen.jpg" alt="Chefchaouen, Morocco">
+        <div class="location-name">Chefchaouen, Morocco</div>
+    </div>
+   
+    <div class="gallery-item chefchaouen">
+        <img src="/code/gallery/chefchaouen1.jpg" alt="Chefchaouen, Morocco">
+        <div class="location-name">Chefchaouen, Morocco</div>
+    </div>
+
+    <div class="gallery-item chefchaouen">
+        <img src="/code/gallery/chefchaouen2.jpg" alt="Chefchaouen, Morocco">
+        <div class="location-name">Chefchaouen, Morocco</div>
+    </div>
+
+    <div class="gallery-item chefchaouen">
+        <img src="/code/gallery/chefchaouen3.jpg" alt="Chefchaouen, Morocco">
+        <div class="location-name">Chefchaouen, Morocco</div>
+    </div>
+
+    <div class="gallery-item chefchaouen">
+        <img src="/code/gallery/chefchaouen4.jpg" alt="Chefchaouen, Morocco">
+        <div class="location-name">Chefchaouen, Morocco</div>
+    </div>
+
+    <div class="gallery-item chefchaouen">
+        <img src="/code/gallery/chefchaouen5.jpg" alt="Chefchaouen, Morocco">
+        <div class="location-name">Chefchaouen, Morocco</div>
+    </div>
+
+    <div class="gallery-item chefchaouen">
+        <img src="/code/gallery/chefchaouen6.jpg" alt="Chefchaouen, Morocco">
+        <div class="location-name">Chefchaouen, Morocco</div>
+    </div>
+
+  <div class="gallery-item chefchaouen">
+        <img src="/code/gallery/chefchaouen7.jpg" alt="Chefchaouen, Morocco">
+        <div class="location-name">Chefchaouen, Morocco</div>
+    </div>
+
+
+    <!-- VATICAN CITY -->
+    <div class="gallery-item vatican">
+        <img src="/code/gallery/vatican.jpg" alt="Vatican City, Rome">
+        <div class="location-name">Vatican City, Rome</div>
+    </div>
+
+    <div class="gallery-item vatican">
+        <img src="/code/gallery/vatican1.jpg" alt="Vatican City, Rome">
+        <div class="location-name">Vatican City, Rome</div>
+    </div>
+
+    <div class="gallery-item vatican">
+        <img src="/code/gallery/vatican2.jpg" alt="Vatican City, Rome">
+        <div class="location-name">Vatican City, Rome</div>
+    </div>
+    
+    <div class="gallery-item vatican">
+        <img src="/code/gallery/vatican3.jpg" alt="Vatican City, Rome">
+        <div class="location-name">Vatican City, Rome</div>
+    </div>
+    
+    <div class="gallery-item vatican">
+        <img src="/code/gallery/vatican4.jpg" alt="Vatican City, Rome">
+        <div class="location-name">Vatican City, Rome</div>
+    </div>
+
+    <div class="gallery-item vatican">
+        <img src="/code/gallery/vatican5.jpg" alt="Vatican City, Rome">
+        <div class="location-name">Vatican City, Rome</div>
+    </div>
+
+<div class="gallery-item vatican">
+        <img src="/code/gallery/vatican6.jpg" alt="Vatican City, Rome">
+        <div class="location-name">Vatican City, Rome</div>
+    </div>
+
+
+    <!-- TROMSØ -->
+    <div class="gallery-item tromso">
+        <img src="/code/gallery/tromso1.jpg" alt="Tromsø, Norway">
+        <div class="location-name">Tromsø, Norway</div>
+    </div>
+
+    <div class="gallery-item tromso">
+        <img src="/code/gallery/tromso2.jpg" alt="Tromsø, Norway">
+        <div class="location-name">Tromsø, Norway</div>
+    </div>
+
+    <div class="gallery-item tromso">
+        <img src="/code/gallery/tromso3.jpg" alt="Tromsø, Norway">
+        <div class="location-name">Tromsø, Norway</div>
+    </div>
+
+     <div class="gallery-item tromso">
+        <img src="/code/gallery/tromso4.jpg" alt="Tromsø, Norway">
+        <div class="location-name">Tromsø, Norway</div>
+    </div>
+
+     <div class="gallery-item tromso">
+        <img src="/code/gallery/tromso5.jpg" alt="Tromsø, Norway">
+        <div class="location-name">Tromsø, Norway</div>
+    </div>
+
+     <div class="gallery-item tromso">
+        <img src="/code/gallery/tromso6.jpg" alt="Tromsø, Norway">
+        <div class="location-name">Tromsø, Norway</div>
+    </div>
+
+     <div class="gallery-item tromso">
+        <img src="/code/gallery/tromso7.jpg" alt="Tromsø, Norway">
+        <div class="location-name">Tromsø, Norway</div>
+    </div>
+
+     <div class="gallery-item tromso">
+        <img src="/code/gallery/tromso8.jpg" alt="Tromsø, Norway">
+        <div class="location-name">Tromsø, Norway</div>
+    </div>
+
+
+    <!-- MOUNT PULAG -->
+    <div class="gallery-item pulag">
+        <img src="/code/gallery/pulag1.jpg" alt="Mount Pulag, Benguet">
+        <div class="location-name">Mount Pulag, Benguet</div>
+    </div>
+
+    <div class="gallery-item pulag">
+        <img src="/code/gallery/pulag2.jpg" alt="Mount Pulag, Benguet">
+        <div class="location-name">Mount Pulag, Benguet</div>
+    </div>
+
+    <div class="gallery-item pulag">
+        <img src="/code/gallery/pulag3.jpg" alt="Mount Pulag, Benguet">
+        <div class="location-name">Mount Pulag, Benguet</div>
+    </div>
+
+     <div class="gallery-item pulag">
+        <img src="/code/gallery/pulag4.jpg" alt="Mount Pulag, Benguet">
+        <div class="location-name">Mount Pulag, Benguet</div>
+    </div>
+
+     <div class="gallery-item pulag">
+        <img src="/code/gallery/pulag5.jpg" alt="Mount Pulag, Benguet">
+        <div class="location-name">Mount Pulag, Benguet</div>
+    </div>
+
+    <!-- BATANES -->
+    <div class="gallery-item batanes">
+        <img src="/code/gallery/batanes1.jpg" alt="Batanes, Philippines">
+        <div class="location-name">Batanes, Philippines</div>
+    </div>
+
+    <div class="gallery-item batanes">
+        <img src="/code/gallery/batanes2.jpg" alt="Batanes, Philippines">
+        <div class="location-name">Batanes, Philippines</div>
+    </div>
+
+    <div class="gallery-item batanes">
+        <img src="/code/gallery/batanes3.jpg" alt="Batanes, Philippines">
+        <div class="location-name">Batanes, Philippines</div>
+    </div>
+
+     <div class="gallery-item batanes">
+        <img src="/code/gallery/batanes4.jpg" alt="Batanes, Philippines">
+        <div class="location-name">Batanes, Philippines</div>
+    </div>
+
+     <div class="gallery-item batanes">
+        <img src="/code/gallery/batanes5.jpg" alt="Batanes, Philippines">
+        <div class="location-name">Batanes, Philippines</div>
+    </div>
+
+     <div class="gallery-item batanes">
+        <img src="/code/gallery/batanes6.jpg" alt="Batanes, Philippines">
+        <div class="location-name">Batanes, Philippines</div>
+    </div>
+
+     <div class="gallery-item batanes">
+        <img src="/code/gallery/batanes7.jpg" alt="Batanes, Philippines">
+        <div class="location-name">Batanes, Philippines</div>
+    </div>
+
+
+    <!-- ISLA GIGANTES -->
+    <div class="gallery-item gigantes">
+        <img src="/code/gallery/gigantes1.jpg" alt="Isla Gigantes, Carles, Iloilo">
+        <div class="location-name">Isla Gigantes, Carles, Iloilo</div>
+    </div>
+
+    <div class="gallery-item gigantes">
+        <img src="/code/gallery/gigantes2.jpg" alt="Isla Gigantes, Carles, Iloilo">
+        <div class="location-name">Isla Gigantes, Carles, Iloilo</div>
+    </div>
+
+    <div class="gallery-item gigantes">
+        <img src="/code/gallery/gigantes3.jpg" alt="Isla Gigantes, Carles, Iloilo">
+        <div class="location-name">Isla Gigantes, Carles, Iloilo</div>
+    </div>
+
+    <div class="gallery-item gigantes">
+        <img src="/code/gallery/gigantes4.jpg" alt="Isla Gigantes, Carles, Iloilo">
+        <div class="location-name">Isla Gigantes, Carles, Iloilo</div>
+    </div>
+
+    <div class="gallery-item gigantes">
+        <img src="/code/gallery/gigantes5.jpg" alt="Isla Gigantes, Carles, Iloilo">
+        <div class="location-name">Isla Gigantes, Carles, Iloilo</div>
+    </div>
+
+    <div class="gallery-item gigantes">
+        <img src="/code/gallery/gigantes6.jpg" alt="Isla Gigantes, Carles, Iloilo">
+        <div class="location-name">Isla Gigantes, Carles, Iloilo</div>
+    </div>
+
+    <div class="gallery-item gigantes">
+        <img src="/code/gallery/gigantes7.jpg" alt="Isla Gigantes, Carles, Iloilo">
+        <div class="location-name">Isla Gigantes, Carles, Iloilo</div>
+    </div>
+
+</div> 
+  </section>
+<!-- =========================
+     TRAVEL GUIDE
+========================= -->
+
+<section id="travel-guide">
+
+    <!-- TRAVEL GUIDE HERO -->
+    <section class="guide-hero">
+
+        <div class="guide-overlay">
+            <h1>Travel Guide</h1>
+
+            <p>
+                Useful tips and guides to make your journey<br>
+                easier, safer, and more enjoyable.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- GUIDE CARDS -->
+    <section class="guide-section">
+
+        <div class="guide-grid">
+
+            <!-- WHAT TO PACK -->
+            <div class="guide-card">
+
+                <h2>What to Pack</h2>
+
+                <p>
+                    Make sure you have the essentials
+                    for a comfortable trip.
+                </p>
+
+                <button onclick="openGuide('packing')">
+                    Read more →
+                </button>
+
+            </div>
+
+
+            <!-- BUDGET TRAVEL -->
+            <div class="guide-card">
+
+                <h2>Budget Travel Tips</h2>
+
+                <p>
+                    Travel smart and discover ways
+                    to enjoy your trip for less.
+                </p>
+
+                <button onclick="openGuide('budget')">
+                    Read more →
+                </button>
+
+            </div>
+
+
+            <!-- TRANSPORTATION -->
+            <div class="guide-card">
+
+                <h2>Transportation</h2>
+
+                <p>
+                    Find convenient ways to get
+                    around your destination.
+                </p>
+
+                <button onclick="openGuide('transportation')">
+                    Read more →
+                </button>
+
+            </div>
+
+
+            <!-- ACCOMMODATION -->
+            <div class="guide-card">
+
+                <h2>Accommodation</h2>
+
+                <p>
+                    Find comfortable places to stay
+                    wherever you go.
+                </p>
+
+                <button onclick="openGuide('accommodation')">
+                    Read more →
+                </button>
+
+            </div>
+
+
+            <!-- BEST TIME -->
+            <div class="guide-card">
+
+                <h2>Best Time to Travel</h2>
+
+                <p>
+                    Learn about the best seasons
+                    for different destinations.
+                </p>
+
+                <button onclick="openGuide('best-time')">
+                    Read more →
+                </button>
+
+            </div>
+
+
+            <!-- PHOTOGRAPHY -->
+            <div class="guide-card">
+
+                <h2>Photography Tips</h2>
+
+                <p>
+                    Capture the best moments
+                    of your journey.
+                </p>
+
+                <button onclick="openGuide('photography')">
+                    Read more →
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</section>
+
+
+<!-- =========================
+     GUIDE POPUP
+========================= -->
+
+<div class="guide-popup" id="guidePopup">
+
+    <div class="guide-popup-card">
+
+        <button class="close-guide" onclick="closeGuide()">
+            ×
+        </button>
+
+        <div class="guide-blue-line"></div>
+
+        <h2 id="guideTitle">Travel Guide</h2>
+
+        <div id="guideContent"></div>
+
+    </div>
+</div>
+  </section>
+  <section class="about-hero" id="about">
+   <div class="about-overlay">
+    <h1>
+     About Us
+    </h1>
+    <p>
+     We are a group of students passionate about travel,
+     <br/>
+     exploration, and sharing beautiful places with you.
+    </p>
+   </div>
+  </section>
+  <section class="purpose-section">
+   <div class="purpose-content">
+    <h2>
+     Our Purpose
+    </h2>
+    <p>
+     ElseWhere is a travelogue website created to help people
+        discover beautiful destinations in the Philippines and
+        around the world. We provide useful information about
+        tourist attractions, activities, travel tips, and other
+        helpful details for travelers.
+    </p>
+    <p>
+     Our goal is to make discovering new places easier and more
+        enjoyable by providing clear and accessible travel
+        information in one website.
+    </p>
+   </div>
+  </section>
+  <section class="faq-section">
+   <div class="section-title">
+    <h2>
+     Frequently Asked Questions
+    </h2>
+    <p>
+     Find answers to the most common questions about ElseWhere.
+    </p>
+   </div>
+   <div class="faq-container">
+    <details>
+     <summary>
+      What is ElseWhere?
+     </summary>
+     <p>
+      ElseWhere is a travelogue website that features
+          different local and international destinations,
+          travel information, activities, and helpful tips.
+     </p>
+    </details>
+    <details>
+     <summary>
+      What destinations are featured on the website?
+     </summary>
+     <p>
+      The website features selected destinations from the
+          Philippines and different parts of the world.
+     </p>
+    </details>
+    <details>
+     <summary>
+      Are the destinations local or international?
+     </summary>
+     <p>
+      Both. ElseWhere features destinations from the
+          Philippines as well as international destinations.
+     </p>
+    </details>
+    <details>
+     <summary>
+      Where can I find travel tips?
+     </summary>
+     <p>
+      You can find useful travel information and tips on our
+          Travel Guide page.
+     </p>
+    </details>
+    <details>
+     <summary>
+      How can I contact the team?
+     </summary>
+     <p>
+      You can contact us through the contact form and the
+          social media information provided below.
+     </p>
+    </details>
+   </div>
+  </section>
+  <section class="contact-section">
+   <div class="contact-container">
+    <!-- CONTACT IMAGE -->
+    <div class="contact-image">
+     <div class="contact-overlay">
+      <h2>
+       Contact Us
+      </h2>
+      <p>
+       Have questions, suggestions, or just want to say hi?
+            We'd love to hear from you!
+      </p>
+     </div>
+    </div>
+    <!-- CONTACT FORM -->
+    <div class="contact-form">
+     <label>
+      Name
+     </label>
+     <input placeholder="Your name" type="text"/>
+     <label>
+      Email
+     </label>
+     <input placeholder="Your email address" type="email"/>
+     <label>
+      Message
+     </label>
+     <textarea placeholder="Type your message here..."></textarea>
+     <button type="submit">
+      Send Message
+     </button>
+    </div>
+    <!-- GET IN TOUCH -->
+    <div class="get-in-touch">
+     <h2>
+      Get in Touch
+     </h2>
+     <div class="contact-info">
+      <p>
+       <strong>
+        Email
+       </strong>
+       <br/>
+       elsewhere@gmail.com
+      </p>
+      <p>
+       <strong>
+        Facebook
+       </strong>
+       <br/>
+       @ElseWheree
+      </p>
+      <p>
+       <strong>
+        Instagram
+       </strong>
+       <br/>
+       @elsewhere.travel
+      </p>
+     </div>
+     <h3>
+      Let's explore
+      <br/>
+      together!
+     </h3>
+    </div>
+   </div>
+  </section>
+  <script src="gallery.js"></script>
+ </body>
+</html>
